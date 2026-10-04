@@ -1,130 +1,278 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="style.css"> 
     <title>My Portfolio</title>
-    
+    <link rel="stylesheet" href="style.css">
 </head>
+
 <body>
+
     <header>
-        <img src="img/logo.png" alt ="logo" width="80" height="100">
-    <nav>
-        <ul>
-            <li><a href="#home">Home</a></li>
-            <li><a href="#about">About</a></li>
-            <li><a href="#skills">Skills</a></li>
-            <li><a href="#projects">Projects</a></li>
-            <li><a href="#contact">Contact</a></li>
-            <li><a href="#education">Education</a></li>
-        </ul>
-    </nav>
-    <form>
-        <input type="text" placeholder="Search..">
-        <button type="submit">Search</button>
-    </form>
-</header>
 
-<main>
-    <section id="home">
-        <h1>Welcome to my personal portfolio website!</h1>
-        <p>This is a simple website that showcases my skills, projects, and contact information. Feel free to explore and learn more about me.</p>
-    </section>  
-   <section id="about">
-    <h1>About me </h1>
-    <img src="img/image.png" alt="image" width="160">
-    <p>
-        <b>Introduction:</b> I am an IT student currently studying Bachelor in Information Technology (BIT). I am interested in software development, web development, and cybersecurity. I enjoy learning new technologies and improving my programming skills. I have basic knowledge of C, HTML, Excel, Word, PowerPoint, and Canva. I am a hardworking and curious learner who enjoys solving problems and exploring new ideas. My goal is to build a successful career in the IT field.
-</p>
-</section>
-    <section id="skills">
-    <h1>My Skills</h1>
-    <dl>
-        <dt>Programming Languages</dt>
-        <dd>C, Python</dd>
-        <dt>Web Development </dt>
-        <dd>HTML, CSS</dd>
-        <dt>Office Suite </dt>
-        <dd>Excel, Word, PowerPoint</dd>
-        <dt>Design Tools</dt>
-        <dd>Canva</dd>
-    </dl>
-    </section>
-    <section id="projects">
-    <h1>My Projects</h1>
-    <article>
-        <h2>E-Commerce Site</h2>
-        <p>This project is a personal portfolio website that showcases my skills, projects, and contact information. It is built using HTML and CSS.</p>
-    </article>
-    <article>
-        <h2> Blogging Platform</h2>
-        <p>This project is a simple blogging platform that allows users to create and manage their blog posts. It is built using HTML, CSS, and JavaScript.</p>
-    </article>
-    </section>
-    <section id="education">
-    <h1>Education</h1>
-    <table>
-        <thead>
-            <tr>
-                <th>S.N</th>
-                <th>Level</th>
-                <th>Institution Name</th>
-                <th>GPA</th>
-                <th>Grade</th>
-            </tr>
-        </thead>
-        <tbody> 
-            <tr>
-                <td>1</td>
-                <td>Secondary level</td>
-                <td>LA</td>
-                <td>3.5</td>
-                <td>A</td>
-            </tr>
-<tr>
-    <td>2</td>
-                <td>Higher Secondary level</td>
-                <td>MIT</td>
-                <td>ongoing</td>
-                <td>ongoing</td>
-</tr>
-        </tbody>     
-    </table>
-    </section>  
-    <section id="contact">
-    <h1>Contact me</h1>
-    <form>
-    <label for="name"><b>Name</b></label>
-    <input type="text" id="name" name="name"> 
-    <br><br>
+        <div class="header-container">
 
-    <label for="email"><b>Email</b></label>
-    <input type="email" id="email" name="email">
-    <br><br>
+            <div class="logo">
+                <img src="img/logo.png" alt="Logo" width="88">
+            </div>
 
-    <label for="message"><b>Message</b></label>
-<br>
-<textarea id="message" name="message" rows="4" cols="30"></textarea>
-<br><br>
-    <button type="submit">Send</button>
-</form>
+            <div class="nav-container">
+                <nav>
+                    <ul>
+                        <li><a href="#home">Home</a></li>
+                        <li><a href="#about">About</a></li>
+                        <li><a href="#projects">Projects</a></li>
+                        <li><a href="#skills">Skills</a></li>
+                        <li><a href="#contact">Contact</a></li>
+                        <li><a href="#education">Education</a></li>
+                    </ul>
+                </nav>
+            </div>
 
-    </section>
+            <div class="search-bar-container">
+                <form>
+                    <input type="text" placeholder="Search">
+                    <button type="submit">Search</button>
+                </form>
+            </div>
 
-        <h2>Find me on:</h2>
-    <!--Gmail-->
-    <a href="https://mail.google.com/mail/?view=cm&fs=1&to=ikchyalamichhane69@gmail.com" target="_blank">
-    <img src="img/gmail.webp" alt="gmail" width="100">
-    </a>
-    <!--LinkedIn--> 
-    <a href="https://www.linkedin.com/in/icchya-lamichhane-913122329/" target="_blank">
-    <img src="img/linkedin.webp" alt="linkedin" width="100">
-    </a>
-    <!--WhatsApp-->
-    <a href="https://wa.me/9741857275" target="_blank">
-        <img src="img/whatsapp.png" alt="whatsApp" width="100">
-    </a>  
-</main>
+        </div>
+
+    </header>
+
+    <main>
+
+        <section id="home">
+
+            <div class="home-container">
+                <h1>Welcome to My Personal Portfolio Website!</h1>
+
+                <p>
+                    This is a simple personal portfolio website that showcases my
+                    education, skills, projects, and contact information. Feel free
+                    to explore and learn more about me.
+                </p>
+
+            </div>
+
+        </section>
+
+        <section id="about">
+
+            <div class="about-container">
+
+                <div class="about-text">
+
+                    <h1>About Me</h1>
+
+                    <p>
+                        <b>I'm Icchya Devi Lamichhane</b>, an IT student currently studying
+                        Bachelor in Information Technology (BIT). I am interested in software
+                        development, web development, and cybersecurity. I enjoy learning
+                        new technologies and improving my programming skills. I have basic
+                        knowledge of C, HTML, Excel, Word, PowerPoint, and Canva. I am a
+                        hardworking and curious learner who enjoys solving problems and
+                        exploring new ideas. My goal is to build a successful career in
+                        the IT field.
+                    </p>
+
+                </div>
+
+                <img src="img/image.png" alt="Icchya Devi Lamichhane" width="160">
+
+            </div>
+
+        </section>
+
+        <section id="skills">
+
+            <div class="skills-container">
+
+                <h1>My Skills</h1>
+
+                <dl>
+
+                    <dt>Programming Languages</dt>
+                    <dd>C, Python</dd>
+
+                    <dt>Web Development</dt>
+                    <dd>HTML, CSS</dd>
+
+                    <dt>Office Suite</dt>
+                    <dd>Excel, Word, PowerPoint</dd>
+
+                    <dt>Design Tools</dt>
+                    <dd>Canva</dd>
+
+                </dl>
+
+            </div>
+
+        </section>
+
+        <section id="projects">
+
+            <div class="projects-container">
+
+                <h1>My Projects</h1>
+
+                <article>
+
+                    <h2>E-Commerce Site</h2>
+
+                    <p>
+                        This project is a simple e-commerce website designed to provide
+                        users with an easy way to browse products and understand basic
+                        online shopping features. The project helps me improve my HTML,
+                        CSS, and web development skills.
+                    </p>
+
+                    <a href="https://github.com/icchyalamichhane-cmd/my-portfolio"
+                       target="_blank">
+                        <button>View Project</button>
+                    </a>
+
+                </article>
+
+                <article>
+
+                    <h2>Personal Portfolio Website</h2>
+
+                    <p>
+                        This project is a personal portfolio website that showcases my
+                        education, skills, projects, and contact information. It is
+                        developed using HTML and CSS to create a simple and user-friendly
+                        web page.
+                    </p>
+
+                    <a href="https://github.com/icchyalamichhane-cmd/my-portfolio"
+                       target="_blank">
+                        <button>View Project</button>
+                    </a>
+
+                </article>
+
+                <article>
+
+                    <h2>Blogging Platform</h2>
+
+                    <p>
+                        This project is a simple blogging platform that allows users to
+                        create and manage blog posts. It is designed to provide basic
+                        blogging features while helping me improve my knowledge of HTML,
+                        CSS, and JavaScript.
+                    </p>
+
+                    <a href="https://github.com/icchyalamichhane-cmd/my-portfolio"
+                       target="_blank">
+                        <button>View Project</button>
+                    </a>
+
+                </article>
+
+            </div>
+
+        </section>
+
+        <section id="contact">
+
+            <div class="contact-container">
+
+                <h1>Contact Me</h1>
+
+                <form>
+
+                    <label for="name">Name:</label><br>
+                    <input type="text" id="name" name="name"><br><br>
+
+                    <label for="email">Email:</label><br>
+                    <input type="email" id="email" name="email"><br><br>
+
+                    <label for="message">Message:</label><br>
+                    <textarea id="message" name="message" rows="4" cols="30"></textarea><br><br>
+
+                    <button type="submit">Send</button>
+
+                </form>
+
+            </div>
+
+        </section>
+
+        <section id="education">
+
+            <div class="education-container">
+
+                <h1>Education</h1>
+
+                <table border="1">
+
+                    <thead>
+
+                        <tr>
+                            <th>S.N.</th>
+                            <th>Level</th>
+                            <th>Institution Name</th>
+                            <th>GPA</th>
+                            <th>Grade</th>
+                        </tr>
+
+                    </thead>
+
+                    <tbody>
+
+                        <tr>
+                            <td>1</td>
+                            <td>Secondary Level</td>
+                            <td>LA</td>
+                            <td>3.5</td>
+                            <td>A</td>
+                        </tr>
+
+                        <tr>
+                            <td>2</td>
+                            <td>Higher Secondary Level</td>
+                            <td>MIT</td>
+                            <td>Ongoing</td>
+                            <td>Ongoing</td>
+                        </tr>
+
+                    </tbody>
+
+                </table>
+
+            </div>
+
+        </section>
+
+    </main>
+
+    <footer>
+
+        <h2>Find Me On</h2>
+
+        <!-- Gmail -->
+        <a href="https://mail.google.com/mail/?view=cm&fs=1&to=ikchyalamichhane69@gmail.com"
+           target="_blank">
+            <img src="img/gmail.webp" alt="Gmail" width="30">
+        </a>
+
+        <!-- LinkedIn -->
+        <a href="https://www.linkedin.com/in/icchya-lamichhane-913122329/"
+           target="_blank">
+            <img src="img/linkedin.webp" alt="LinkedIn" width="30">
+        </a>
+
+        <!-- WhatsApp -->
+        <a href="https://wa.me/9741857275"
+           target="_blank">
+            <img src="img/whatsapp.png" alt="WhatsApp" width="30">
+        </a>
+
+        <p>
+    </footer>
 </body>
+
 </html>
