@@ -543,7 +543,6 @@ footer a:hover {
     }
 }
 
-/* Image Slider */
 .slider-section {
     width: 100%;
     margin: 40px 0;
@@ -581,7 +580,6 @@ footer a:hover {
     display: block;
 }
 /* Previous and Next buttons */
-
 .slider-btn {
     position: absolute;
     top: 50%;
@@ -596,21 +594,16 @@ footer a:hover {
     cursor: pointer;
     z-index: 5;
 }
-
 .slider-btn.prev {
     left: 15px;
 }
-
 .slider-btn.next {
     right: 15px;
 }
-
 .slider-btn:hover {
     background-color: #b84f70;
 }
-
 /* Dots */
-
 .slider-dots {
     position: absolute;
     bottom: 15px;
@@ -620,7 +613,6 @@ footer a:hover {
     gap: 10px;
     z-index: 5;
 }
-
 .dot {
     width: 13px;
     height: 13px;
@@ -631,14 +623,10 @@ footer a:hover {
     cursor: pointer;
     box-shadow: 0 1px 4px rgba(0, 0, 0, 0.3);
 }
-
 .dot.active {
     background-color: #d66a8a;
     transform: scale(1.2);
 }
-
-
-
 @media (max-width: 600px) {
     .slider {
         height: 280px;
